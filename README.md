@@ -21,11 +21,11 @@ Here are some resources i found interesting and helpful to the creation of this 
 ## Building Process
 - Step 1 — Set Up Google Colab
 - Step 2 — Build the Model
-    - **Encoder: Input** (one x,y pair) -> a couple hidden layers -> **Output** (r vector)
+    - **Encoder: Input** (one x,y pair) &rarr; a couple hidden layers &rarr; **Output** (r vector)
     - Take the average of all r vectors from N observed points into one r_O
-    - **Decoder: Input** (concatentate r_O with an x_t value) -> few hidden layers (same hidden dim) -> **Output:** a single predicted y value
+    - **Decoder: Input** (concatentate r_O with an x_t value) &rarr; few hidden layers (same hidden dim) &rarr; **Output:** a single predicted y value
 - Step 3 — Write the **Training Loop**
-    - **Loss Function** (Use **MSE** - Mean Squared Error) -> **Optimiser** (Adam) -> <ins>during each training step randomly sample N observed points from each function to create context, then output remaining points</ins>
+    - **Loss Function** (Use **MSE** - Mean Squared Error) &rarr; **Optimiser** (Adam) &rarr; <ins>during each training step randomly sample N observed points from each function to create context, then output remaining points</ins>
 - Step 4 — Train All 3 Models
     - Train Models 2, 4, and 8. Keeping everything the same but <ins>Changing the **r_dim**</ins>
 - Step 5 — Analysis
