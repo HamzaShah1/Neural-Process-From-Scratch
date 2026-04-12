@@ -31,3 +31,6 @@ Here are some resources i found interesting and helpful to the creation of this 
 - Step 5 — Analysis
     - Anal;ysis of plotting r_dim vs test error
     - Computing a correlation matrix of the latent dimensions
+
+## Product
+**[write a little explanation of what the final product is]**
