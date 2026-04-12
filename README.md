@@ -24,4 +24,3 @@ Here are some resources i found interesting and helpful to the creation of this 
 - Step 3 — Write the Training Loop (Task 2)
 - Step 4 — Train All 3 Models (Task 3)
 - Step 5 — Write the PDF Report (Tasks 3-5)
-- [x] "What are Neural Processes?” On YouTube
