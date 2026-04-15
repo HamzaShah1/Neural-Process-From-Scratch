@@ -2,7 +2,7 @@
 This is a project to research and showcase my learning of neural networks. 
 
 This README goes through the background learning process i went through, and then the final product i built:
-An encoder & decoder neural network that learns to reconstruct unseen parts of a curve from a small observed subset, then comparing different latent sizes <sub>r</sub>2, 3, 4
+An encoder & decoder neural network that learns to reconstruct unseen parts of a curve from a small observed subset, then comparing different latent sizes **r<sub>dim</sub>=2, 3, 4**
 
 ## Background Knowledge 
 - Firstly, i brushged up my knowledge on Deep Neural Networks and Tensor Data Processing 
