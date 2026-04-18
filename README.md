@@ -1,6 +1,6 @@
 # README
 ## Conditional Neural Process from scratch in PyTorch
-This project documents my learning journey from the foundations of neural networks through to implementing a **Conditional Neural Process (CNP)** — a research-level meta-learning architecture first introduced by DeepMind in 2018.
+This project documents my learning journey from the foundations of neural networks through to implementing a **Conditional Neural Process (CNP)** : a research level meta-learning architecture first introduced by DeepMind in 2018.
 
 This README goes through the background theory I learned, and then the final product i built: a PyTorch implementation of a **CNP** that learns to reconstruct unseen parts of a curve from a small observed subset. Then generalises that ability to entirely new, unseen functions at inference time.
 
